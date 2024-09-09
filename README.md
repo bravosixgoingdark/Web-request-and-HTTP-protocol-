@@ -77,7 +77,9 @@ The main difference between Local, Session storage and Cookie is the storage siz
 HTTP status codes indicate whether a specific HTTP request has been successfully completed. Some common responses are: 
 
 ```200 OK```: The request succeeded. 
+
 ```404 Not Found```: The resource requested doesn't exists 
+
 ```500 internal server error```: The server encountered an error that it could not handle 
 
 ```403 forbidden```: The client doesn't have permission to access the requested resources. 
