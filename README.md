@@ -60,7 +60,7 @@ In this response, the web server returns the webpage that the user requested.
 - Some common security headers: 
    -  `Strict-Transport-Security`: lets a website tells browsers that it should only be used 
    -  `X-XSS-Protection`: helps protect webites against injection attacks 
-   -  `X-Frame-Options`:  The X-Frame-Options HTTP response header can be used to instruct the browser whether a web page should be allowed to render a `<frame>`, `<iframe>`, `<embed>` or `<object>` element on website or not.
+   -  `X-Frame-Options`:  The X-Frame-Options HTTP response header can be used to Web-request-and-HTTP-protocol-instruct the browser whether a web page should be allowed to render a `<frame>`, `<iframe>`, `<embed>` or `<object>` element on website or not.
     -  `Content-Security-Policy`: Instructs the browser to load only the allowed content in the policy. If implemented correctly, this can prevent the exploitation of XSS attacks.
 
 ### 5: Explain the process of how a web app can remember what you do on their website? What are the differences between cookies, local Storage and session Storage? 
